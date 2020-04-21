@@ -4,4 +4,16 @@ body {
   background-image: url('jbro.jpg');
 }
 </style> 
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Call this number for support")) {
+    txt = "123-456-7890";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+ 
 </html>
